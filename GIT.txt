@@ -18,7 +18,6 @@ GIT
 If you want to add the changes to the git cloud first thing you need to do is:
 
 	- git add "filename" : bring the changes to the staging area 
-	- git add . : brings all the files to the staging area 
 	- git commit -m "Message" : commit to the changes,write the message indicating what chagnes have you made
 	- git push : after commit push the changes made to the local copy to the cloud git repo
 
@@ -27,4 +26,4 @@ What if you want to revert the changes in your code ?
 		- git log : gives you history of previous commits 
 		- take any commit ID
 		- do git revert -n commitID and then push  
-Let's try it out.
+Let's try it out 
