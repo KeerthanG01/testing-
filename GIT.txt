@@ -1,0 +1,11 @@
+GIT 
+- It is a version control system (VCS)
+- Allows multiple people to work on the code, so multiple contribution, different people can work on the same code and push the results later 
+- Safe storage of code in case of hardware crash / system failure 
+- manage and maintain different versions of the same piece of software ( branching) 
+- Version tracking , you can revert to previous versions of the code 
+- git is by far the best vcs
+
+
+Understand the difference between pull request and push request 
+ 
