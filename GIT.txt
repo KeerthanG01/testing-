@@ -7,5 +7,17 @@ GIT
 - git is by far the best vcs
 
 
-Understand the difference between pull request and push request 
+-Understand the difference between pull request and push request 
+
+- git clone - used to create a local copy of the code by downloading the repo from cloud to the machine 
+
+- git status - gives you details of any new changes made or files added 
+
+- git log - gives you the history of all the commits, who and when the commit was done . 
+
+If you want to add the changes to the git cloud first thing you need to do is:
+
+	- git add "filename" : bring the changes to the staging area 
+	- git commit -m "Message" : commit to the changes,write the message indicating what chagnes have you made
+	- git push : after commit push the changes made to the local copy to the cloud 
  
