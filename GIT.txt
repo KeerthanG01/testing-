@@ -27,3 +27,14 @@ What if you want to revert the changes in your code ?
 		- take any commit ID
 		- do git revert -n commitID and then push  
 Let's try it out 
+
+Branches in GIT:
+	-creating branches for more than one version of the project / code 
+	- we do experimentation on one file 
+	- git allows to two branches of code, were you can do experimentation and parallel development of the code 
+	- (master) is a default branch in git 
+	
+Commands related to branching:
+	git branch: lists all the branches in git 
+	git branch 'branchname': create a new branch with name branchname
+	git checkout 'branchname': switch to another branch 
