@@ -38,3 +38,4 @@ Commands related to branching:
 	git branch: lists all the branches in git 
 	git branch 'branchname': create a new branch with name branchname
 	git checkout 'branchname': switch to another branch 
+	go to main branch and do git merge branchname to merge second  branch with main branch
