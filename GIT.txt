@@ -39,3 +39,12 @@ Commands related to branching:
 	git branch 'branchname': create a new branch with name branchname
 	git checkout 'branchname': switch to another branch 
 	go to main branch and do git merge branchname to merge second  branch with main branch
+	git branch -d branchname : delete the branch 
+	git checkout -b branchname : create new branch and make it active
+
+HEAD in git: 
+	-it is a reference to the most recent commit in git most of the times 
+	- git show HEAD : shows you the head commit 
+	- git difftool old commit new commit
+	- git difftool HEAD~i HEAD  : shows difference between older commit and newer commit HEAD~1 one older commit than newer commit
+	- HEAD is said to detached if it's not pointing to recent commit , like when you do git checkout commitID , you will have detached head
