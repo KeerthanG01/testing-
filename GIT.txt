@@ -48,3 +48,7 @@ HEAD in git:
 	- git difftool old commit new commit
 	- git difftool HEAD~i HEAD  : shows difference between older commit and newer commit HEAD~1 one older commit than newer commit
 	- HEAD is said to detached if it's not pointing to recent commit , like when you do git checkout commitID , you will have detached head
+.gitignore:
+	- create one file and add all the files you want to ignore 
+	- next time while doing git status , it wont show those files 
+	- very helpful to deal with annoying files tha tyou dont bother 
