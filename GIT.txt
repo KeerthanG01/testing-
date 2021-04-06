@@ -50,6 +50,8 @@ Commands related to branching:
 	git branch -d branchname : delete the branch 
 	git checkout -b branchname : create new branch and make it active
 
+Fork in GIT :
+	-create a copy of some other repository in your own repository 
 HEAD in git: 
 	-it is a reference to the most recent commit in git most of the times 
 	- git show HEAD : shows you the head commit 
