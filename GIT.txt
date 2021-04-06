@@ -29,7 +29,8 @@ What if you want to revert the changes in your code ?
 		- you can revert back to the changes as follows:
 		- git log : gives you history of previous commits 
 		- take any commit ID
-		- do git revert -n commitID and then push  
+		- do git revert -n commitID 
+		- do git status, git add , and then commit , then push , since we are using -n flag in git revert, we must explicitly commit.
 Let's try it out 
 
 Branches in GIT:
