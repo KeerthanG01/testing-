@@ -22,8 +22,11 @@ If you want to add the changes to the git cloud first thing you need to do is:
 	- git push : after commit push the changes made to the local copy to the cloud git repo
 
 What if you want to revert the changes in your code ? 
-	- There is a command called git checkout -- filename, which can undo the changes made to the file at that point in Time/ to undo changes  in all the files do git checkout -- . (use dot for all the files) 
-	- you can revert back to the changes as follows:
+	- The changes can be for commited for uncomitted 
+	 Uncommited : 
+		- There is a command called git checkout -- filename, which can undo the changes made to the file at that point in Time/ to undo changes  in all the files do git checkout -- . (use dot for all the files) 
+	Comiited Changes:
+		- you can revert back to the changes as follows:
 		- git log : gives you history of previous commits 
 		- take any commit ID
 		- do git revert -n commitID and then push  
