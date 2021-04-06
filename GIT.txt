@@ -24,13 +24,15 @@ If you want to add the changes to the git cloud first thing you need to do is:
 What if you want to revert the changes in your code ? 
 	- The changes can be for commited for uncomitted 
 	 Uncommited : 
-		- There is a command called git checkout -- filename, which can undo the changes made to the file at that point in Time/ to undo changes  in all the files do git checkout -- . (use dot for all the files) 
+		- There is a command called git checkout -- filename, which can undo the changes made to the file at that point in Time/ to undo changes  in all the files do 			git checkout -- . (use dot for all the files) 
 	Comiited Changes:
 		- you can revert back to the changes as follows:
 		- git log : gives you history of previous commits 
 		- take any commit ID
 		- do git revert -n commitID 
 		- do git status, git add , and then commit , then push , since we are using -n flag in git revert, we must explicitly commit.
+		
+		- git reset -- hard commitID , this removes commits after the commitID , a little dangerous, and not safer to use, think twice , cause it becomes a headache 			if we loose data 
 Let's try it out 
 
 Branches in GIT:
@@ -42,7 +44,8 @@ Branches in GIT:
 Commands related to branching:
 	git branch: lists all the branches in git 
 	git branch 'branchname': create a new branch with name branchname
-	git checkout 'branchname': switch to another branch 
+	git checkout 'branchname': switch to another branch
+	while pushing a new branch , you must set an upstream as well 
 	go to main branch and do git merge branchname to merge second  branch with main branch
 	git branch -d branchname : delete the branch 
 	git checkout -b branchname : create new branch and make it active
